@@ -5,8 +5,5 @@ Bu repo, Ismahan BİLGİN'ın kişisel tanıtım sayfasına aittir.Bu sayfada Is
 ## Canlı Site
 [Ismahan BİLGİN Kişisel Web Sayfası ](https://ismahanbilgin.github.io/ismahanWebOdev/)  
 
-## Kullanım
-Bu sayfa HTML ve CSS kullanılarak hazırlanmıştır.
-
 ## İletişim
 Ismahan BİLGİN - l2211012015@ogr.sdu.edu.tr 
