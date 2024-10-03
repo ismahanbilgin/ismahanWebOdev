@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismahan BİLGİN </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <style>
+        /*Arka plan rengi*/
+        body {
+            background-color: lightgray;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .başlik {
+            text-align: center;
+            font-weight: bold;
+            background-color: rgb(124, 131, 131);
+            color: rgb(0, 0, 0);
+        }
+
+        .footer {
+            text-align: center;
+            background-color: rgb(37, 65, 65);
+            color: rgb(255, 255, 255);
+        }
+
+        /* navigation bar*/
+        ul {
+            list-style-type: none;
+            background-color: rgb(124, 131, 131);
+            text-align: left;
+        }
+
+        div ul li {
+            display: inline-block;
+            padding: 10px;
+            padding-right: 50px;
+            margin-right: 15px;
+            margin-left: -30px;
+            ;
+        }
+
+        ul li i {
+            color: rgb(7, 8, 8);
+        }
+
+        ul li div:hover {
+            background-color: rgb(194, 185, 192);
+            padding: 5px;
+            transition: 0.5s;
+
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            color: darkblue;
+            transition: 0.5s;
+        }
+
+        .resim {
+            margin-top: 20px;
+            width: 400px;
+            height: 300px;
+            border: 10px inset darkgray;
+        }
+
+        ul li {
+            color: rgb(0, 0, 0);
+        }
+
+        h4 {
+            margin-top: 0px;
+            margin-bottom: 5px;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="başlik">KİŞİSEL WEB SAYFASI</h1>
+
+    <!--navigation bar-->
+
+    <div>
+        <ul>
+            <li>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/ismahanbilgin" target="_blank">GİTHUB PROFİL</a>
+                </div>
+            </li>
+
+            <li>
+                <div>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/ismahan-bilgin-816393315/" target="_blank">LİNKEDIN PROFİL</a>
+                </div>
+            </li>
+
+            <li>
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <a href="https://w3.sdu.edu.tr/" target="_blank">SDÜ</a>
+                </div>
+            </li>
+
+            <li>
+                <div>
+                    <i class="fa-brands fa-chrome"></i>
+                    <a href="https://www.google.com.tr" target="_blank">GOOGLE</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div>
+        <!--görsel-->
+        <center>
+            <img class="resim" src="resim/resim.jpg" alt="">
+        </center>
+
+        <!--hakkımda-->
+
+        <h1 style="text-align: center; margin-bottom: 0px;">HAKKIMDA</h1>
+        <center>
+            <h4>
+                Merhaba ben Ismahan BİLGİN.
+            </h4>
+            <h4>
+                Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği 3.sınıf öğrencisiyim.
+                20 yaşındayım. Antalya/Gazipaşa'da doğdum.
+            </h4>
+
+            <h4>Şu anda yapay zeka, siber güvenlik ve web alanına ilgi duyduğum için çeşitli kurs ve projelerle kendimi
+                geliştirmeye çalışıyorum.
+            </h4>
+        </center>
+
+        <div>
+
+            <h2 style="text-align: center; margin-bottom: 0px; color:black;">HOBİLERİM</h2>
+
+            <center>
+                <h4>Çizim yapmak</h4>
+                <h4>Okçuluk</h4>
+                <h4>Kitap okumak</h4>
+                <h4>Dizi-Film izlemek</h4>
+                <h4>Fotoğraf çekmek</h4>
+                <br>
+                <hr><br>
+            </center>
+
+        </div>
+    </div>
+
+    <!--video-->
+    <center>
+        <video width="560" height="315" controls style="margin-right:50px;">
+            <source src="video/video1.mp4">
+        </video>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n2V7wFs4oic?si=a-36QrRTGRWgUinq"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+
+    <!--footer-->
+    <footer>
+        <p class="footer">© 2024 Ismahan BİLGİN. Tüm Hakları Saklıdır. | Öğrenci Numarası: 2211012015</p>
+    </footer>
+
+
+</body>
+
+</html>
