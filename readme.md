@@ -3,7 +3,7 @@
 Bu repo, Ismahan BİLGİN'ın kişisel tanıtım sayfasına aittir.Bu sayfada Ismahan'nın biyografisi, github profili ve linkedın profili bulunmaktadır.
 
 ## Canlı Site
-[Ismahan BİLGİN Kişisel Web Sayfası ]()  
+[Ismahan BİLGİN Kişisel Web Sayfası ](https://ismahanbilgin.github.io/ismahanWebOdev/)  
 
 ## Kullanım
 Bu sayfa HTML ve CSS kullanılarak hazırlanmıştır.
